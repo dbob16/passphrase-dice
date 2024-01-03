@@ -27,12 +27,15 @@ for line in lines:
 
 session.commit()
 
-window = ttk.Window(title="Password Dice", themename="cyborg", resizable=(False, False))
+window = ttk.Window(title="Password Dice", themename="cyborg", resizable=(False, False), iconphoto='PWdice.png')
 # Variables
 v_diceseq = ttk.IntVar()
 v_digitnum = ttk.IntVar()
 v_output = ttk.StringVar()
 v_passphrase = ttk.StringVar()
+
+# Default Variables
+v_digitnum.set(2)
 
 # Commands
 def cmd_passphrase_add(word:str):

@@ -4,6 +4,22 @@ This project is a little bit of a Python script which assists users into using E
 
 The wordlist file itself is created by the EFF (Electronic Frontier Foundation).
 
+# Instructions
+
+Run the "main" script or application (if using binary release) from the directory where you cloned or extracted it.
+
+If you have and want to use physical dice, roll the dice, and enter the order of the numbered sides into the lookup box, and click the Lookup button next to it. The application will then look up that sequence against the wordlist.
+
+Otherwise you can use the Randomize button to randomly select a word.
+
+Clear Passphrase button - clears the passphrase box
+
+Digit Number button - generates a random number with the set number of digits in the box before it, also adds it to the passphrase box
+
+Copy - copies the contents of the passphrase box so you can paste it elsewhere.
+
+![screenshot of Passphrase Dice](screenshots/ss1.jpg)
+
 # Custom Wordlists
 
 As this script just looks into the "wordlist.txt" file, you are free to put in your own wordlists as long as the follow the same general format:
